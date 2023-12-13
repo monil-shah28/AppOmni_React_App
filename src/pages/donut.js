@@ -6,7 +6,7 @@ const Donut = () => {
 	return (
 		<div className="container">
 			<div className="iframe3">
-				<iframe src="https://4e8cbc7f-de3f-4e85-b308-1d06a77bfb07.looker.app/embed/dashboards/15" title="treemap_pie_details" width="100%" height="800px"/>
+				<iframe src="https://af275b30-12c8-4614-a455-57e58e0c8ecd.looker.app/embed/dashboards/8" title="multiple_donut" width="100%" height="800px"/>
 			</div>
 		</div>	
 	);

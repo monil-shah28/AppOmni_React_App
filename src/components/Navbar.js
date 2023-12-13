@@ -17,6 +17,9 @@ const Navbar = () => {
 					<NavLink to="/donut" activeStyle>
 						Donut Multiple
 					</NavLink>
+					<NavLink to="/pagination" activeStyle>
+						Table Pagination
+					</NavLink>
 				</NavMenu>
 			</Nav>
 		</>

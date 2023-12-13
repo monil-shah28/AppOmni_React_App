@@ -10,6 +10,7 @@ import Home from "./pages";
 import Looker from "./pages/looker";
 import TreeMap from "./pages/treemap";
 import Donut from "./pages/donut";
+import Pagination from "./pages/pagination";
 
 function App() {
   // return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/looker" element={<Looker />} />
             <Route path="/treemap" element={<TreeMap />}/>
             <Route path="/donut" element={<Donut />}/>
+            <Route path="/pagination" element={<Pagination />}/>
         </Routes>
     </Router>
 );
