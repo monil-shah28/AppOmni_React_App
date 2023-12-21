@@ -14,11 +14,17 @@ const Navbar = () => {
 					<NavLink to="/treemap" activeStyle>
 						TreeMap and Pie Chart
 					</NavLink>
-					<NavLink to="/donut" activeStyle>
-						Donut Multiple
+					<NavLink to="/tp" activeStyle>
+						Team Planner
 					</NavLink>
 					<NavLink to="/pagination" activeStyle>
 						Table Pagination
+					</NavLink>
+					<NavLink to="/nested" activeStyle>
+						Nested TreeMap
+					</NavLink>
+					<NavLink to="/overrun" activeStyle>
+						Project OverRun
 					</NavLink>
 				</NavMenu>
 			</Nav>

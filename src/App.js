@@ -9,8 +9,10 @@ import {
 import Home from "./pages";
 import Looker from "./pages/looker";
 import TreeMap from "./pages/treemap";
-import Donut from "./pages/donut";
+import TeamPlanner from "./pages/tp";
 import Pagination from "./pages/pagination";
+import NestedTreeMap from "./pages/nestedtree";
+import OverRun from "./pages/overrun";
 
 function App() {
   // return (
@@ -23,8 +25,10 @@ function App() {
             <Route exact path="/" element={<Home />} />
             <Route path="/looker" element={<Looker />} />
             <Route path="/treemap" element={<TreeMap />}/>
-            <Route path="/donut" element={<Donut />}/>
+            <Route path="/tp" element={<TeamPlanner />}/>
             <Route path="/pagination" element={<Pagination />}/>
+            <Route path="/nested" element={<NestedTreeMap />}/>
+            <Route path="/overrun" element={<OverRun />}/>
         </Routes>
     </Router>
 );
