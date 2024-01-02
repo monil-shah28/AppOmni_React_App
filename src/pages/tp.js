@@ -6,7 +6,7 @@ const TeamPlanner = () => {
 	return (
 		<div className="container">
 			<div className="iframe3">
-				<iframe src="https://af275b30-12c8-4614-a455-57e58e0c8ecd.looker.app/embed/dashboards/10?Business+Unit=" title="tp" width="100%" height="800px"/>
+				<iframe src="https://40f7f28e-b4d6-445a-963a-9529a73a3172.looker.app/embed/dashboards/tp::tp_employee?Business+Unit=" title="tp" width="100%" height="800px"/>
 			</div>
 		</div>	
 	);

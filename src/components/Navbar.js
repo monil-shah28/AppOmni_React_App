@@ -11,12 +11,6 @@ const Navbar = () => {
 					<NavLink to="/looker" activeStyle>
 						Product Details
 					</NavLink>
-					<NavLink to="/treemap" activeStyle>
-						TreeMap and Pie Chart
-					</NavLink>
-					<NavLink to="/tp" activeStyle>
-						Team Planner
-					</NavLink>
 					<NavLink to="/pagination" activeStyle>
 						Table Pagination
 					</NavLink>
@@ -25,6 +19,15 @@ const Navbar = () => {
 					</NavLink>
 					<NavLink to="/overrun" activeStyle>
 						Project OverRun
+					</NavLink>
+					<NavLink to="/tp" activeStyle>
+						Team Planner
+					</NavLink>
+					<NavLink to="/tp_scenarios" activeStyle>
+						TP Scenarios
+					</NavLink>
+					<NavLink to="/collapsible" activeStyle>
+						Collapsible Tree
 					</NavLink>
 				</NavMenu>
 			</Nav>

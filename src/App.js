@@ -13,6 +13,8 @@ import TeamPlanner from "./pages/tp";
 import Pagination from "./pages/pagination";
 import NestedTreeMap from "./pages/nestedtree";
 import OverRun from "./pages/overrun";
+import TPScenarios from "./pages/tp_scenarios";
+import Collapsible from './pages/collapsible';
 
 function App() {
   // return (
@@ -29,6 +31,8 @@ function App() {
             <Route path="/pagination" element={<Pagination />}/>
             <Route path="/nested" element={<NestedTreeMap />}/>
             <Route path="/overrun" element={<OverRun />}/>
+            <Route path="/tp_scenarios" element={<TPScenarios />}/>
+            <Route path="/collapsible" element={<Collapsible />}/>
         </Routes>
     </Router>
 );
